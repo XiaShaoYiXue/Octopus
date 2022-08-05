@@ -1,2 +1,2 @@
 # Octopus
-helloworld
+A website as a community of rubber stamp
