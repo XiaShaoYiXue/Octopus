@@ -1,0 +1,34 @@
+
+.search-area{
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 8px;
+    height: 30px;
+}
+
+.input-holder{
+
+}
+.search-input{
+    border-radius: 10px;
+    border-color: #579ea3;
+    background-color: white;
+    /*opacity: 1 !important;*/
+    position: static !important;
+    letter-spacing: 1px;
+    margin: 0;
+    width: 80%;
+    height: 30px;
+    align-items: center;
+}
+
+.input-holder input{
+    padding-left: 30px;
+}
+
+.input-holder input:focus{
+    outline: none;
+}
+
+
