@@ -2,7 +2,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page isELIgnored="false" %>
 <c:set var="ctx" value="${pageContext.request.contextPath}"/>
-<%--<%String path = request.getContextPath();%>--%>
+<c:set var="testvar" value="测试"/>
+
 <html>
 <head>
     <meta charset="UTF-8"/>
@@ -13,6 +14,8 @@
     <title>探索</title>
 </head>
 <div class="wrapper">
+    <div>${testvar}</div>
+    <script>console.log(${testvar})</script>
     <!-- 头部导航栏 -->
     <%@include file="discovery_header.jsp" %>
 
